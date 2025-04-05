@@ -2,6 +2,14 @@
 README
 ======
 
+Some of this material was created in support of a second-year IoT class I taught at Vermont
+State University. The project runs on a BeaglePlay device and is written in Python with a
+partially complete alternate implementation in C.
+
+The projects gathers (simulated) temperature data in the Winooski River Valley of Vermont. It
+uploads that data to a cloud database, and then analyzes it using a simple machine learning
+method to build a model of how temperatures in that region vary on a daily basis.
+
 This system consists of two programs: `observer.py` and `archivist.py`. The observer reads the
 (mock) temperature sensor and the (mock) GPS connected to the BeaglePlay and stores that data in
 a local PostgreSQL database. The archivist uploads new temperature records to a PostgreSQL

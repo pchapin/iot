@@ -3,12 +3,14 @@
 This repository contains my sandbox of IoT experiments and learning exercises. If any of this
 code ever matures to a reasonable place, it could potentially be moved to its own repository.
 
-Some of this material was created in support of IoT classes I taught at Vermont State
-University. For example, the BeaglePlay folder contains a simple project for gathering
-(simulated) temperature data in the Winooski Valley of Vermont, uploading that data to a cloud
-database, and then analyzing it using a simple machine learning method to build a model of how
-temperatures in that region vary on a daily basis. For more information, see the README.md file
-in the BeaglePlay folder.
++ **SensorNet**. A wireless sensor network that gathers temperature data around the Williston
+  campus of Vermont State University. This project uses WSN nodes (Tmote Sky) and the nesC
+  programming language.
+  
++ **TempVT**. A temperature gathering application for the BeaglePlay that simulates acquiring
+  temperature data in the Winoosky River Valley of Vermont. This project is written in Python
+  with an alternate implementation (partial) in C. It was used as an in-class example for a
+  second-year IoT class at Vermont State University.
 
 Peter Chapin  
 spicacality@kelseymountain.org  
