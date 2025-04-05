@@ -12,4 +12,4 @@ MAILTO=debian
 # |  |  |  |  .---- day of week (0 - 6) (Sunday=0 or 7) OR sun,mon,tue,wed,thu,fri,sat
 # |  |  |  |  |
 # m  h dom mon dow command
-  24 *   *   *   * cd /home/debian/examples/BeagleBone/Black && ./archivst
+ 31  *   *   *   * cd /home/debian/examples/BeagleBone/Black && ./archivst
